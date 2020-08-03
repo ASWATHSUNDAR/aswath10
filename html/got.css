@@ -1,0 +1,480 @@
+@font-face {
+  
+  src: url('Galada-Regular.ttf');
+  font-family: myFirstFont;
+}
+@font-face {
+  
+  src: url('Quikhand.ttf');
+  font-family: f4;
+}
+@font-face {
+  
+  src: url('Crom_v1.ttf');
+  font-family: f3;
+}
+@font-face {
+  
+  src: url('Breathe Fire.otf');
+  font-family: f2;
+}
+@keyframes spin{
+	from{
+		transform: rotate(0deg);
+	}
+	to{
+		transform:rotate(360deg);
+	}
+}
+
+body{
+	background-image: url("242556.jpg");
+}
+
+img {
+	color: white;
+	display:inline-block;	
+	width:100%;
+	
+
+}
+
+nav{
+	
+	display:inline-block;
+	float:left;
+	height:80%;
+	width:15%;
+	background: #000000;
+	margin: 3% 0px 3% 1%;
+	padding:0px;
+	border:solid 1px;
+	-webkit-border-radius:0px 0px 9px 9px; 
+}
+nav a{
+	color: white;
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 110%;
+	margin:20%;
+	font-family: myFirstFont;
+	animation-name: spin;
+	animation-duration: 2s;
+	
+}
+
+#sec1,#sec2,#sec3,#sec5,#sec6
+{
+	display:inline-block;
+	background: rgb(255,255,255,0.5);
+	border:hidden 1px;
+	-webkit-border-radius:6px;
+	float:left;
+	width:72%;
+	height:70%;
+	margin:5%;
+}
+@keyframes anim{
+	0% {left:-27%;}
+	100%{left:0%;}
+}
+h1{
+	text-align: center;
+	font-size:250%;
+	font-family:f2;
+	position:relative;
+	animation: anim 5s;
+}
+.p1{
+	color:#000000;
+	font-size: 130%;
+	margin:3% 5%;
+}
+#drop{
+	display:none;
+}
+.tit{
+	text-align:center;
+	font-size:140%;
+}
+.descpic
+{	text-align: center;
+	margin:3% 35% 3%35%;
+	width:30%;
+	height:10%;
+}
+#rj{
+	text-align: center;
+	margin:3% 35% 0%35%;
+	width:30%;
+	height:10%;
+}
+#rjdesc{
+	text-align:center;
+	font-weight: bolder;
+}
+.desc
+{
+	text-align:center;
+	font-size:110%;
+	width:90%;
+}
+.desc1
+{
+	
+	border:solid 4px;
+	padding:3% 0%;
+	
+}
+.p2
+{
+	font-size: 170%;
+	margin:3%;
+}
+.p3{
+	font-size: 120%;
+	margin:3%;
+}
+#div3{
+	width:80%;
+	margin:3% 3% 5% 3%;
+}
+.link1{
+	margin:3%;
+}
+.form1{
+	text-align: center;
+	width:68%;
+	border:solid 3px;
+	margin:5% 11% 5% 13%;
+background: #c0c0c0;
+padding:1%;
+}
+.log{
+	font-size: 180%;
+	text-align: center;
+}
+#name,#name1,#email,#login,#create,#favc{
+	margin:2%;
+	-webkit-border-radius:8px;
+	padding:1%; 
+}
+
+#sub1,#sub2{
+	margin:2%;
+	background: #00ff00;
+	-webkit-border-radius: 5px;
+	font-family: f4;
+	padding:0.5%;
+	font-size: 110%;
+}
+label{
+	font-style: italic;
+	font-size:120%;
+	margin:1% 0% 1% 1%;
+}
+.row1,.row2,.row3{
+	border:solid 4px #000000;
+	width:30%;
+	height:30%;
+	margin:5% 5% 5% 10%;
+}
+.emmy{
+	text-align: center;
+	margin:3% 35% 0%35%;
+	width:30%;
+	height:10%;
+
+}
+.peter{
+	text-align:center;
+	font-weight: bolder;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    
+    background-color:rgb(65, 69, 71);
+    color: white;
+}
+@media screen and (max-width:950px)
+{
+	.tit{
+	text-align:center;
+	font-size:130%;
+}
+	nav a{
+	color: white;
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 85%;
+	margin:20% 10% 20% 10%;
+	width:80%;
+	font-family: myFirstFont;
+	animation-name: spin;
+	animation-duration: 2s;
+}
+.p1{
+	color:#000000;
+	font-size: 120%;
+	margin:3% 5%;
+}
+.log{
+	font-size: 170%;
+	text-align: center;
+}
+.p2
+{
+	font-size: 140%;
+	margin:3%;
+}
+
+@keyframes anim{
+	0% {left:-25%;}
+	100%{left:0%;}
+}
+h1{
+	text-align: center;
+	font-size:200%;
+	font-family:f2;
+	position:relative;
+	animation: anim 4s;
+}
+
+#drop{
+	display:none;
+
+}
+}
+@media screen and (max-width:680px)
+{
+	.row1,.row2,.row3{
+	display:block;
+	border:solid 4px #000000;
+	width:70%;
+	height:40%;
+	margin:5% 10% 5% 15%;
+}
+	nav{
+	
+	display:inline-block;
+	float:left;
+	height:80%;
+	width:22%;
+	background: #000000;
+	margin: 3% 0px 3% 1%;
+	padding:0px;
+	border:solid 1px;
+	-webkit-border-radius:0px 0px 9px 9px; 
+}
+#sec1,#sec2,#sec3,#sec5,#sec6
+{
+	display:inline-block;
+	background: rgb(255,255,255,0.5);
+	border:hidden 1px;
+	-webkit-border-radius:6px;
+	float:left;
+	width:67%;
+	height:70%;
+	margin:3%;
+}
+	nav a{
+	color: white;
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 70%;
+	margin:20% 10% 20% 10%;
+	width:80%;
+	font-family: myFirstFont;
+	animation-name: spin;
+	animation-duration: 2s;
+}
+.p2
+{
+	font-size: 140%;
+	margin:3%;
+}
+.log{
+	font-size: 160%;
+	text-align: center;
+}
+.tit{
+	text-align:center;
+	font-size:120%;
+}
+	.p1{
+		color:#000000;
+		font-size: 100%;
+		margin:3% 5%;
+	}
+	@keyframes anim{
+	0% {left:-18%;}
+	100%{left:0%;}
+}
+h1{
+	text-align: center;
+	font-size:165%;
+	font-family:f2;
+	position:relative;
+	animation: anim 3s;
+	
+}
+#drop{
+	display:none;
+}
+.emmy{
+	text-align: center;
+	margin:3% 35% 0%35%;
+	width:60%;
+	height:30%;
+
+}
+.peter{
+	text-align:center;
+	font-weight: bolder;
+	font-size: 120%;
+}
+}
+@media screen and (max-width:400px)
+{
+	#rj{
+	text-align: center;
+	margin:3% 7% 0%14%;
+	width:70%;
+	height:30%;
+}
+#rjdesc{
+	text-align:center;
+	font-weight: bolder;
+}
+ #show{
+ 	display:none;
+ 	
+
+ }
+ .row1,.row2,.row3{
+ 	display:block;
+	border:solid 4px #000000;
+	width:80%;
+	height:60%;
+	margin:10% 10% 10% 10%;
+}
+
+ .p2
+{
+	font-size: 130%;
+	margin:3%;
+}
+ .tit{
+	text-align:center;
+	font-size:110%;
+}
+ #drop{
+ 	display:block;
+ 	color: #ffffff;
+    text-align: center;
+    font-size: 110%;
+	margin:20% 10% 20% 10%;
+	width:80%;
+	background: #000000;
+	border:none;
+	font-family: f3;
+
+ }
+ img {
+	color: white;
+	display:inline-block;	
+	width:100%;
+	
+
+}
+
+nav{
+	
+	display:block;
+	float:left;
+	height:80%;
+	width:45%;
+	background: #000000;
+	margin: 3% 18.5% 3% 28.5%;
+	padding:0px;
+	border:solid 1px;
+	-webkit-border-radius:0px 0px 9px 9px; 
+}
+nav a{
+	color: white;
+	display:block;
+	text-align: center;
+	text-decoration: none;
+	font-size: 110%;
+	margin:10%;
+	font-family: myFirstFont;
+	animation-name: spin;
+	animation-duration: 2s;
+}
+#name,#name1,#email,#login,#create,#favc{
+	margin:2%;
+	width:80%;
+	-webkit-border-radius:8px;
+	padding:0%; 
+}
+
+#sec1,#sec2,#sec3,#sec5,#sec6
+{
+	display:inline-block;
+	background: rgb(255,255,255,0.5);
+	border:hidden 1px;
+	-webkit-border-radius:6px;
+	float:left;
+	width:72%;
+	height:70%;
+	margin:5% 14% 5% 14%;
+}
+@keyframes anim{
+	0% {left:-20%;}
+	100%{left:0%;}
+}
+h1{
+	text-align: center;
+	font-size:150%;
+	font-family:f2;
+	position:relative;
+	animation: anim 2s;
+}
+.p1{
+	color:#000000;
+	font-size: 120%;
+	margin:3% 5%;
+}
+.desc
+{
+	text-align:center;
+	font-size:90%;
+	width:90%;
+}
+.link1{
+	font-size: 90%;
+}
+.log{
+	font-size: 150%;
+	text-align: center;
+}
+.emmy{
+	text-align: center;
+	margin:3% 5% 0% 10%;
+	width:80%;
+	height:30%;
+
+}
+.peter{
+	text-align:center;
+	font-weight: bolder;
+	font-size: 100%;
+}
+
+}
